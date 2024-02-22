@@ -21,6 +21,7 @@ static FILTERS: Lazy<Arc<Vec<Regex>>> = Lazy::new(|| {
         Regex::new(r"画像が貼れなかったのでメンションだけします").unwrap(),
         // Are they in civil war?
         Regex::new(r"荒らし.com").unwrap(),
+        Regex::new(r"xn--68j5e377y.com").unwrap(),
         Regex::new(r"ctkpaarr.org").unwrap(),
     ];
     Arc::new(re)
