@@ -23,6 +23,9 @@ static FILTERS: Lazy<Arc<Vec<Regex>>> = Lazy::new(|| {
         Regex::new(r"荒らし.com").unwrap(),
         Regex::new(r"xn--68j5e377y.com").unwrap(),
         Regex::new(r"ctkpaarr.org").unwrap(),
+        Regex::new(r"趣味は様々なサイトに核を飛ばすことです").unwrap(),
+        Regex::new(r"唐澤貴洋").unwrap(),
+        Regex::new(r"鈴木哲哉").unwrap(),
     ];
     Arc::new(re)
 });
